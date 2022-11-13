@@ -1,0 +1,14 @@
+.inner-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.summer,.winter,.norml{
+    background-color: blue;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
